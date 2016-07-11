@@ -1,0 +1,106 @@
+<!--
+||||||||||||||||||||||||||||||||||||||||||
+
+Web oficial: www.keyquotes.es
+Desarrollador: Álvaro Castillo
+Fecha: 1/4/2015
+
+Tutorial youtube. Efecto scroll en
+ menu con html, css y jQuery
+
+||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>efecto scroll en menu</title>
+
+	<link rel="stylesheet" href="style/index_style.css">
+	<link rel="stylesheet" href="style/index_select.css">
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src='js/script.js'></script>
+	
+</head>
+<body>
+	<header>
+	
+		<nav>
+			<ul>
+				<a href='#inicio'><li>Início</li></a>
+				<a href='#agenda'><li>Agenda</li></a>
+				<a href='#cadastrese'><li>Cadastre-se</li></a>
+			</ul>
+				
+				<img id='logo' src='pictures/logo.png'>
+
+			<ul>
+				<a href='http://www.keyquotes.es'><li>Ajuda</li></a>
+				<a href="conta.html" ><li>Conta: </li> </a>
+									<li><input type="text" name="l" id="l" placeholder="username" size="10"> 
+										<input type="password" name="p" id="p" size="5">
+										<input type="submit" name="enviar" id="entrar" value="Login"></li>
+				
+				
+			</ul>
+		</nav>
+		
+	</header>
+
+	<section id='banner'>
+		
+	</section>
+
+	<section id='body'>
+	<div id="faixa"> <!--MENU ALTERNATIVO-->
+	
+		<div class="styled-select yellow rounded">
+		<select name="estado" class="select">
+            <option value="" selected>Selecione seu Estado</option>
+				<option value="ac">Acre</option> 
+				<option value="ba">Bahia</option> 
+				<option value="ce">Ceará</option> 
+				<option value="df">Distrito Federal</option> 
+				<option value="es">Espírito Santo</option> 
+				<option value="go">Goiás</option> 
+				<option value="ma">Maranhão</option> 
+				<option value="mg">Minas Gerais</option> 
+				<option value="mg">Mato Grosso do Sul</option> 
+				<option value="pa">Pará</option> 
+				<option value="pe">Pernambuco</option> 
+				<option value="rj">Rio de Janeiro</option> 
+				<option value="rn">Rio Grande do Sul</option> 
+				<option value="se">Sergipe</option> 
+				<option value="sp">São Paulo</option> 
+		</select> 
+		</div>
+		
+		<div id="menu_alter">
+		<ul>
+				<li> <span class="show"> </span><a href="#" > <!--<img src="pictures/ico_show.png">--> Shows </li></a>
+				<li> <span class="eletronico"> </span><a href="#" > <!--<img src="pictures/ico_eletronico.png">--> Eletrônico </li></a>
+				<li> <span class="esporte"> </span><a href="#" > <!--<img src="pictures/ico_esporte.png">--> Esportes </li></a>
+				<li> <span class="infantil"> </span><a href="#" > <!--<img src="pictures/ico_infantil.png">--> Infantíl </li></a>
+		</ul>
+		</div>
+		
+	</div>
+	
+	<div id="conteudo">
+	<iframe scrolling='NO' width='100%' height='26%' frameborder='0' src='coolcarousel.html'></iframe>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	</section>
+</body>
+</html>

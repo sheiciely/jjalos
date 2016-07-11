@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+section#banner{
+	width: 100%;
+	background-image: url(../pictures/dance-club-rave.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background-color: transparent;
+	-webkit-transition: background-color .5s;
+}
+
+nav{
+	display: table;
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition: margin-left .5s;
+}
+
+ul{
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+	margin: 10px;
+	padding: 2px;
+}
+
+ul a{
+	color: #F3F3F3;
+	text-decoration: none;
+}
+
+img#logo{
+	float:left;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 150px;
+	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
+
+#body{
+	width: 100%;
+	height: 2000px;
+	/*background-image: url(../pictures/background.jpg);
+	background-attachment: contain;
+	background-position: -100px 80px auto 900px;
+	background-repeat: no-repeat;*/
+	
+	background-image: url(../pictures/background.jpg);
+background-repeat: no-repeat;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100%;
+
+}
+
+#faixa{
+	width: 89%;
+	height: 65px;
+	margin: 0px 25px 2px 71px;
+	background:#DCDCDC;
+	border: 3px solid white;
+}
+
+#menu_alter{
+	width: 960;
+	background:#DCDCDC;
+	margin: -70px 0px 0px 800px;
+	float: left;
+	border-radius: 5px;
+}
+
+#menu_alter ul{
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+
+#menu_alter ul li{
+	float: left;
+	font: 12px arial;
+	border-right: 1px solid #eee;
+}
+
+#menu_alter ul li a{
+	color: #888;
+	text-decoration: none;
+	padding: 10px 0px 0px 10px;
+	display: block;
+}
+
+#menu_alter ul li:hover{
+	background: #fff;
+}
+
+#menu_alter ul li .show{
+	background: #DCDCDC url(../pictures/ico_show.png) no-repeat center;
+	float:left;
+	width: 100%;
+	padding: 30px 0;
+	margin-bottom: 10px;
+}
+#menu_alter ul li .eletronico{
+	background: #DCDCDC url(../pictures/ico_eletronico.png) no-repeat center;
+	float:left;
+	width: 100%;
+	padding: 30px 0;
+	margin-bottom: 10px;
+}
+
+#menu_alter ul li .esporte{
+	background: #DCDCDC url(../pictures/ico_esporte.png) no-repeat center;
+	float:left;
+	width: 100%;
+	padding: 30px 0;
+	margin-bottom: 10px;
+}
+
+#menu_alter ul li .infantil{
+	background: #DCDCDC  url(../pictures/ico_infantil.png) no-repeat center;
+	float:left;
+	width: 100%;
+	padding: 30px 0;
+	margin-bottom: 10px;
+}
+
+#conteudo{
+	width: 89%;
+	height: 1000px;
+	margin: -2px 25px 4px 71px;
+	background:#fff;
+	border: 3px solid white;
+}
+
+#iframe{
+	scroll: no;
+}

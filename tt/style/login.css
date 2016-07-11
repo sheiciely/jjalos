@@ -1,0 +1,15 @@
+.quick_connex{
+box-shadow:0 0 10px!important;
+padding:5px;
+position:absolute;
+right:200px;
+top:185px;
+width:160px
+}
+
+.quick_connex .connec_close{
+bottom:3px;
+float:right;
+left:5px;
+position:relative
+}
